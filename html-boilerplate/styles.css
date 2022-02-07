@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+}
+/*This is the universal */
+p {
+    color: darkred;
+    background-color: blanchedalmond;
+}
+body {
+    background-color: blanchedalmond;
+}
+.list {
+    color: blueviolet;
+}
+#title {
+    font-weight: 700; font-size: xx-large;
+    text-align: center;
+}
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline;
+    cursor: pointer;
+}
+.active, .circle:hover {
+    background-color: blue;
+}
+.content {
+    padding: 0 18px;
+    display: block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
