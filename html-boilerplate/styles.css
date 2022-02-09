@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /*This is the universal */
 p {
@@ -7,8 +7,13 @@ p {
     background-color: blanchedalmond;
 }
 body {
-    background-color: blanchedalmond;
+    background-color: #eb00ff;
+opacity: 1;
+background-image:  linear-gradient(30deg, #49009b 12%, transparent 12.5%, transparent 87%, #49009b 87.5%, #49009b), linear-gradient(150deg, #49009b 12%, transparent 12.5%, transparent 87%, #49009b 87.5%, #49009b), linear-gradient(30deg, #49009b 12%, transparent 12.5%, transparent 87%, #49009b 87.5%, #49009b), linear-gradient(150deg, #49009b 12%, transparent 12.5%, transparent 87%, #49009b 87.5%, #49009b), linear-gradient(60deg, #49009b77 25%, transparent 25.5%, transparent 75%, #49009b77 75%, #49009b77), linear-gradient(60deg, #49009b77 25%, transparent 25.5%, transparent 75%, #49009b77 75%, #49009b77);
+background-size: 56px 98px;
+background-position: 0 0, 0 0, 28px 49px, 28px 49px, 0 0, 28px 49px;
 }
+    
 .list {
     color: blueviolet;
 }
@@ -23,13 +28,92 @@ body {
     border-radius: 50%;
     display: inline;
     cursor: pointer;
+    align-items: center;
 }
 .active, .circle:hover {
     background-color: blue;
 }
 .content {
     padding: 0 18px;
-    display: block;
+    display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+}
+  .box {
+      display: flex;
+      justify-content: space-evenly;
+      background-image: linear-gradient(to bottom right, #bd9af5, #a166ff);
+      height: 500px;
+      width: 1500px;
+      align-items: center;
+      border-radius: 20px;
+  }
+  .text {
+      padding-left: 5px;
+      padding-top: 5px;
+  }
+  .item1 {
+      background-color: black;
+      height: 450px;
+      width: 450px;
+      border-radius: 20px;
+
+  }
+  .item2 {
+      background-color: black;
+      height: 450px;
+      width: 450px;
+      border-radius: 20px;
+      box-shadow: 2px 2px 5px;
+  }
+  .item_text {
+      color: #e9dbff;
+  }
+  .bigmiddle {
+      height: 150px;
+      width: 110%;
+      position: fixed;
+      left: -10px;
+      top: -10px;
+      background-color: #2b1d3a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      border-bottom: #251931;
+      border-style: solid;
+      border-width: 4px;
+  }
+  .gradient {
+      width: 120%;
+      height: 100%;
+      position: fixed;
+      left: -0.1%;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  }
+  .logo {
+      border-radius: 50%;
+      background-color: #f1f1f1;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      height: 100px;
+  }
+  .logotext {
+      color: #f1f1f1;
+      font-size: 80px;
+      position: fixed;
+      left: 140px;
+      top: 20px;
+  }
+  .MenuItem {
+      color: #f1f1f1;
+      font-size: 40px;
+  }
+  .pages {
+      width: 50%;
+      background-color: #312142;
+      height: 100%;
+      position: relative;
   }
